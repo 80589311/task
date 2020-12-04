@@ -38,6 +38,16 @@ http-request ^https:\/\/daojia\.jd\.com\/client? script-path=https://raw.githubu
 # elecV2 (wapside.189.cn)
 http-request ^https:\/\/wapside.189.cn:9001\/api\/exchange\/consume script-path=https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/dianx/dianx.js, requires-body=true, tag=电信金豆换话费
 
+# syzzzf (h5.ele.me)
+http-request ^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$ script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemGetCookies.js, tag=饿了么
+
+# blackmatrix7 (%APPEND% zhiyou.smzdm.com, user-api.smzdm.com)
+什么值得买_获取cookie = script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_checkin.js,type=http-request,requires-body=true,pattern=^https?:\/\/zhiyou\.smzdm\.com\/user$
+什么值得买_获取账号密码 = script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_checkin.js,type=http-request,requires-body=true,pattern=^https?:\/\/user-api\.smzdm\.com\/user_login\/normal$
+
+# lxk0301 (account.huami.com)
+小米运动获取Token = type=http-response,pattern=^https:\/\/account\.huami\.com\/v2\/client\/login, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/backUp/xmSports.js
+
 # whyour （api.m.jd.com）
 京东赚赚cookie = type=http-request,pattern=^https\:\/\/api\.m\.jd\.com\/client\.action\?functionId\=interactIndex,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jdzz.cookie.js
 
@@ -50,4 +60,4 @@ QQ阅读APP = type=http-request,pattern=^https:\/\/(commontgw6|eventv3)\.reader\
 企鹅读书 = type=http-request,pattern=https:\/\/mqqapi\.reader\.qq\.com\/mqq\/addReadTimeWithBid?,script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/Task/qqreads.js, requires-header=true
 
 [MITM]
-hostname = tieba.baidu.com, *.smzdm.com, *.v2ex.com, mobwsa.ximalaya.com, *.bilibili.com, *.feng.com, *.video.qq.com, m.client.10010.com, act.10010.com, wx.10086.cn, wapside.189.cn, wx-mini.pagoda.com.cn, ifac*.iqiyi.com, www.52pojie.cn, api.m.jd.com, c.tieba.baidu.com, h5.bianlifeng.com, mall.oclean.com, app*.jegotrip.com.cn, task.jegotrip.com.cn, daojia.jd.com, commontgw6.reader.qq.com, eventv3.reader.qq.com, operation-api.jimistore.com, mqqapi.reader.qq.com
+hostname = tieba.baidu.com, *.smzdm.com, *.v2ex.com, mobwsa.ximalaya.com, *.bilibili.com, *.feng.com, *.video.qq.com, m.client.10010.com, act.10010.com, wx.10086.cn, wapside.189.cn, wx-mini.pagoda.com.cn, ifac*.iqiyi.com, www.52pojie.cn, api.m.jd.com, c.tieba.baidu.com, h5.bianlifeng.com, mall.oclean.com, app*.jegotrip.com.cn, task.jegotrip.com.cn, daojia.jd.com, commontgw6.reader.qq.com, eventv3.reader.qq.com, %APPEND% zhiyou.smzdm.com, user-api.smzdm.com, h5.ele.me, account.huami.com, operation-api.jimistore.com, mqqapi.reader.qq.com
