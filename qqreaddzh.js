@@ -17,7 +17,7 @@ const jsname='企鹅读书'
 const $ = Env(jsname)
 
 const logs = 0;   //0为关闭日志，1为开启
-const notifyInterval=0
+const notifyInterval=1
 //0为关闭通知，1为所有通知，2为宝箱领取成功通知，3为宝箱每18次通知一次
 
 
