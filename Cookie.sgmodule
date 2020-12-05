@@ -24,6 +24,10 @@ http-request ^https?:\/\/iface(\d)?\.iqiyi\.com\/ script-path=https://raw.github
 http-request https:\/\/www\.52pojie\.cn\/home\.php\? script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, tag=吾爱破解
 http-request https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js, tag=百度贴吧(客户端)
 
+# Macsuny（api.weibo.cn, pay.sc.weibo.com）
+http-request https:\/\/api\.weibo\.cn\/\d\/video\/machine\?gsid script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js, tag=微博
+http-request https:\/\/pay\.sc\.weibo\.com\/aj\/mobile\/home\/welfare\/signin\/do\? script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js, tag=微博
+
 # zZPiglet  (h5.bianlifeng.com, mall.oclean.com)
 http-request ^https:\/\/h5\.bianlifeng\.com\/meepo\/taskCenter\/home\/v\d script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Blibee/Blibee.js, tag=便利蜂
 http-request ^https:\/\/mall\.oclean\.com\/API\/VshopProcess\.ashx\?action=TaskHome&clientType=5&client=5&openId= script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini.js, tag=欧可林商城cookie
@@ -60,4 +64,4 @@ QQ阅读APP = type=http-request,pattern=^https:\/\/(commontgw6|eventv3)\.reader\
 企鹅读书 = type=http-request,pattern=https:\/\/mqqapi\.reader\.qq\.com\/mqq\/addReadTimeWithBid?,script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/Task/qqreads.js, requires-header=true
 
 [MITM]
-hostname = tieba.baidu.com, *.smzdm.com, *.v2ex.com, mobwsa.ximalaya.com, *.bilibili.com, *.feng.com, *.video.qq.com, m.client.10010.com, act.10010.com, wx.10086.cn, wapside.189.cn, wx-mini.pagoda.com.cn, ifac*.iqiyi.com, www.52pojie.cn, api.m.jd.com, c.tieba.baidu.com, h5.bianlifeng.com, mall.oclean.com, app*.jegotrip.com.cn, task.jegotrip.com.cn, daojia.jd.com, commontgw6.reader.qq.com, eventv3.reader.qq.com, %APPEND% zhiyou.smzdm.com, user-api.smzdm.com, h5.ele.me, account.huami.com, operation-api.jimistore.com, mqqapi.reader.qq.com
+hostname = tieba.baidu.com, *.smzdm.com, *.v2ex.com, mobwsa.ximalaya.com, *.bilibili.com, *.feng.com, *.video.qq.com, m.client.10010.com, act.10010.com, wx.10086.cn, wapside.189.cn, wx-mini.pagoda.com.cn, ifac*.iqiyi.com, www.52pojie.cn, api.m.jd.com, c.tieba.baidu.com, api.weibo.cn, pay.sc.weibo.com, h5.bianlifeng.com, mall.oclean.com, app*.jegotrip.com.cn, task.jegotrip.com.cn, daojia.jd.com, commontgw6.reader.qq.com, eventv3.reader.qq.com, %APPEND% zhiyou.smzdm.com, user-api.smzdm.com, h5.ele.me, account.huami.com, operation-api.jimistore.com, mqqapi.reader.qq.com
