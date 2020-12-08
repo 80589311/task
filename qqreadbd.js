@@ -53,7 +53,7 @@ http-request https:\/\/mqqapi\.reader\.qq\.com\/mqq\/addReadTimeWithBid? script-
 
 //⚠️////改👇
 
-const jbid=1//换号则修改这个值,默认账号1
+const jbid=2//换号则修改这个值,默认账号1
 
 /////////改👆
 
