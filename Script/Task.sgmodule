@@ -2,7 +2,7 @@
 #!desc=iOS Tasks 模块配置.自用
 
 [Script]
-提交京东种豆、农场、萌宠等互助码 = type=cron,cronexp="30 12 * * 1,2,3",wake-system=1,timeout=30,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/shareCode-auto.js,script-update-interval=0
+京东_提交种豆、农场、萌宠等互助码 = type=cron,cronexp="30 12 * * 1,2,3",wake-system=1,timeout=30,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/shareCode-auto.js,script-update-interval=0
 京东_直播红包雨 = type=cron,cronexp="1 0 0,9,11,13,15,17,19,20,21,23 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_live_redrain.js,script-update-interval=0
 QQ_企鹅读书 = type=cron,cronexp=0 29/29 0-23 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/KefaTang/task/master/qqreaddzh.js,script-update-interval=0
 京东 = type=cron,cronexp="15 0 0,10 * * *",wake-system=1,timeout=150,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,script-update-interval=0
