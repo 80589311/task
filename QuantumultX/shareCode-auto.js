@@ -10,7 +10,7 @@ const shareCodes = [
   {
     zd: $.getdata("zd_shareCode1") || "wqv6bbkq5emb2h4m6v2or5uzwq3h7wlwy7o5jii",
     nc: $.getdata("nc_shareCode1") || "09611d3dc4db413b9279212ea86d8240",
-    mc: $.getdata("mc_shareCode1") || "MTAxODc2NTEzNTAwMDAwMDAyODM4NDg2Nw====",
+    mc: $.getdata("mc_shareCode1") || "MTAxODc2NTEzNTAwMDAwMDAyODM4NDg2Nw==",
     ddgc: $.getdata("dd_shareCode1") || "P04z54XCjVWnYaS5jQAC2H52HtPlZGtwmE",
     jxgc: $.getdata("jx_shareCode1") || "FAznqTJmXlwOt75fhQh_pA==",
   },
