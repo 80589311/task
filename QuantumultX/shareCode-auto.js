@@ -12,7 +12,7 @@ const shareCodes = [
     nc: $.getdata("nc_shareCode1") || "09611d3dc4db413b9279212ea86d8240",
     mc: $.getdata("mc_shareCode1") || "MTAxODc2NTEzNTAwMDAwMDAyODM4NDg2Nw==",
     ddgc: $.getdata("dd_shareCode1") || "P04z54XCjVWnYaS5jQAC2H52HtPlZGtwmE",
-    jdzz: $.getdata("jd_shareCode1") || "ACj1VnqyVyjAIDWCXnQ",
+    jdzz: $.getdata("zz_shareCode1") || "ACj1VnqyVyjAIDWCXnQ",
     jxgc: $.getdata("jx_shareCode1") || "FAznqTJmXlwOt75fhQh_pA==",
   },
   {
@@ -20,7 +20,7 @@ const shareCodes = [
     nc: $.getdata("nc_shareCode2") || "cbcc656dd03a47a59e842d878ee9b16e",
     mc: $.getdata("mc_shareCode2") || "MTAxODc2NTEzNDAwMDAwMDAzMjI5OTM5Mw==",
     ddgc: $.getdata("dd_shareCode2") || "P04z54XCjVWnYaS5m9cZwOlvTQK0B9CKeAtSg",
-    jdzz: $.getdata("jd_shareCode2") || "AUWE5_PDwhXVNXD-PtAMY",
+    jdzz: $.getdata("zz_shareCode2") || "AUWE5_PDwhXVNXD-PtAMY",
     jxgc: $.getdata("jx_shareCode2") || "lRPi_71a3LmlY77qhA8E8w==",
   },
 ];
