@@ -53,7 +53,7 @@ http-request ^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$ script-pat
 # XidNDD (commontgw6.reader.qq.com, eventv3.reader.qq.com)
 QQ阅读APP = type=http-request,pattern=^https:\/\/(commontgw6|eventv3)\.reader\.qq\.com\/*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/XidNDD/2020scripts/master/QQReadSign.js
 
-# ziye12  (mqqapi.reader.qq.com, mobile.app.autohome.com.cn, openapi.autohome.com.cn)
+# ziye12  (mqqapi.reader.qq.com, mobile.app.autohome.com.cn, pay.autohome.com.cn, openapi.autohome.com.cn)
 企鹅读书获取更新body = type=http-request,pattern=https:\/\/mqqapi\.reader\.qq\.com\/log\/v4\/mqq\/track,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/Task/qqreads.js, script-update-interval=0
 企鹅读书获取时长cookie = type=http-request,pattern=https:\/\/mqqapi\.reader\.qq\.com\/mqq\/addReadTimeWithBid?,script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/Task/qqreads.js
 
@@ -67,4 +67,4 @@ QQ阅读APP = type=http-request,pattern=^https:\/\/(commontgw6|eventv3)\.reader\
 汽车之家极速版获取时段body = type=http-request,pattern=http:\/\/mobile\.app\.autohome\.com\.cn\/fasthome\/mainpagecoin\/addCoin,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ziye12/QCZJSPEED/master/Task/qczjspeed.js, script-update-interval=0
 
 [MITM]
-hostname = tieba.baidu.com, *.smzdm.com, *.v2ex.com, mobwsa.ximalaya.com, *.bilibili.com, *.feng.com, *.video.qq.com, m.client.10010.com, act.10010.com, wx.10086.cn, wapside.189.cn, wx-mini.pagoda.com.cn, ifac*.iqiyi.com, www.52pojie.cn, api.m.jd.com, c.tieba.baidu.com, api.weibo.cn, pay.sc.weibo.com, h5.bianlifeng.com, mall.oclean.com, app*.jegotrip.com.cn, task.jegotrip.com.cn, daojia.jd.com, commontgw6.reader.qq.com, eventv3.reader.qq.com, %APPEND% zhiyou.smzdm.com, user-api.smzdm.com, h5.ele.me, account.huami.com, mqqapi.reader.qq.com, mobile.app.autohome.com.cn, openapi.autohome.com.cn
+hostname = tieba.baidu.com, *.smzdm.com, *.v2ex.com, mobwsa.ximalaya.com, *.bilibili.com, *.feng.com, *.video.qq.com, m.client.10010.com, act.10010.com, wx.10086.cn, wapside.189.cn, wx-mini.pagoda.com.cn, ifac*.iqiyi.com, www.52pojie.cn, api.m.jd.com, c.tieba.baidu.com, api.weibo.cn, pay.sc.weibo.com, h5.bianlifeng.com, mall.oclean.com, app*.jegotrip.com.cn, task.jegotrip.com.cn, daojia.jd.com, commontgw6.reader.qq.com, eventv3.reader.qq.com, %APPEND% zhiyou.smzdm.com, user-api.smzdm.com, h5.ele.me, account.huami.com, mqqapi.reader.qq.com, mobile.app.autohome.com.cn, pay.autohome.com.cn, openapi.autohome.com.cn
