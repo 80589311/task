@@ -59,10 +59,8 @@ QQ阅读APP = type=http-request,pattern=^https:\/\/(commontgw6|eventv3)\.reader\
 
 #汽车之家极速版获取body
 汽车之家极速版获取body = type=http-request,pattern=(mobile\.app\.autohome\.com\.cn\/*||openapi\.autohome\.com\.cn\/*),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ziye12/QCZJSPEED/master/Task/qczjspeed.js, script-update-interval=0
-
 #汽车之家极速版获取header
 汽车之家极速版获取header = type=http-request,pattern=(mobile\.app\.autohome\.com\.cn\/*||openapi\.autohome\.com\.cn\/*),script-path=https://raw.githubusercontent.com/ziye12/QCZJSPEED/master/Task/qczjspeed.js
-
 #汽车之家极速版获取时段body
 汽车之家极速版获取时段body = type=http-request,pattern=http:\/\/mobile\.app\.autohome\.com\.cn\/fasthome\/mainpagecoin\/addCoin,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ziye12/QCZJSPEED/master/Task/qczjspeed.js, script-update-interval=0
 
