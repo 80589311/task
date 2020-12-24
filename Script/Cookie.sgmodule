@@ -47,9 +47,6 @@ http-request ^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$ script-pat
 # lxk0301 (account.huami.com)
 小米运动获取Token = type=http-response,pattern=^https:\/\/account\.huami\.com\/v2\/client\/login, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/backUp/xmSports.js
 
-# whyour （api.m.jd.com）
-京东赚赚cookie = type=http-request,pattern=^https\:\/\/api\.m\.jd\.com\/client\.action\?functionId\=interactIndex,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jdzz.cookie.js
-
 # XidNDD (commontgw6.reader.qq.com, eventv3.reader.qq.com)
 QQ阅读APP = type=http-request,pattern=^https:\/\/(commontgw6|eventv3)\.reader\.qq\.com\/*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/XidNDD/2020scripts/master/QQReadSign.js
 
